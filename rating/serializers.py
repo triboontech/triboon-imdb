@@ -18,6 +18,7 @@ class RatingSerializer(serializers.ModelSerializer):
             "score",
             "comment",
             "created_at",
+            "updated_at",
         ]
         read_only_fields = [
             "user", "movie", "created_at"
